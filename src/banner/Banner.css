@@ -1,0 +1,28 @@
+.container-fluid {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#008dd3+0,00caed+100 */
+  background-image: url('../assets/images/pigment 2.jpg'), linear-gradient(135deg, #008dd3 0%,#00caed 100%);
+  background-color: #008dd3; 
+  background: url('../assets/images/pigment 2.jpg'), -moz-linear-gradient(-45deg, #008dd3 0%, #00caed 100%); 
+  background: url('../assets/images/pigment 2.jpg'),  -webkit-linear-gradient(-45deg, #008dd3 0%,#00caed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008dd3', endColorstr='#00caed',GradientType=1 );
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.center-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.logo-container img {
+  width: 250px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(0px 0px 8px rgba(255,255,255,0.8));
+}
+.logo-container h1 {
+  color: #d40d16;
+  text-shadow: 0px 0px 10px white;
+}
