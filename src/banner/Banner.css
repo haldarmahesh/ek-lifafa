@@ -1,4 +1,4 @@
-.container-fluid {
+.top-container {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#008dd3+0,00caed+100 */
   background-image: url('../assets/images/pigment 2.jpg'), linear-gradient(135deg, #008dd3 0%,#00caed 100%);
   background-color: #008dd3; 
@@ -10,6 +10,9 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+/* .container-fluid { */
+  /* background: -webkit-linear-gradient(135deg,rgba(132,13,121,.88),rgba(208,44,180,.31)); */
+/* } */
 
 .center-content {
   position: relative;
@@ -25,4 +28,12 @@
 .logo-container h1 {
   color: #d40d16;
   text-shadow: 0px 0px 10px white;
+  font-weight: 400;
+}
+.yt-subscribe {
+  display: table; 
+  margin: 20px auto;
+}
+.yt-subscribe svg {
+  margin:  0px 5px;
 }
