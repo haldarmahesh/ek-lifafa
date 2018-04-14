@@ -14,7 +14,7 @@ export default class VideoCardGroup extends Component {
     return (
       <div className="card" key={videoId} onClick={(() => window.open(`https://www.youtube.com/watch?v=${videoId}`))}>
         <div className="image-container">
-          <img className="card-img-top" src={`http://img.youtube.com/vi/${videoId}/mqdefault.jpg`} alt="Card image cap" />
+          <img className="card-img-top" src={`http://img.youtube.com/vi/${videoId}/mqdefault.jpg`} alt={`${video.title} hindi audio story `} />
           <span className="card-img-text">
             <span className="text fa-stack ">
               <i className="fa fa-circle fa-stack-2x "></i>

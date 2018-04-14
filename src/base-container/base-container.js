@@ -7,7 +7,7 @@ class BaseContainer extends Component {
     this.videoLists = ['zc6ytyHOXnc', 'tTn2P1kE6qs', '2RR0NusR-3c', 'PbFXw44-MDk', '7NWCXmPeuLg', 'Yz1r1mkta6c', '4k-x-eM_wbo'];
   }
   render() {
-    let randomVideoId = this.videoLists[Math.floor(Math.random() * this.videoLists.length)];
+    // let randomVideoId = this.videoLists[Math.floor(Math.random() * this.videoLists.length)];
     return (
       <div className="container raised">
         <section className="intro">
