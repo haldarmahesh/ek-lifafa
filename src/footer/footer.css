@@ -1,5 +1,4 @@
 footer {
-    height: 70px;
     background-color: #008dd3; 
     background:linear-gradient(135deg, #008dd3 0%,#00caed 100%);
     background: -moz-linear-gradient(-45deg, #008dd3 0%, #00caed 100%); 
@@ -7,7 +6,7 @@ footer {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008dd3', endColorstr='#00caed',GradientType=1 );
 }
 .footer .row {
-    padding: 15px;
+    padding: 25px;
 }
 
 .footer .row svg {

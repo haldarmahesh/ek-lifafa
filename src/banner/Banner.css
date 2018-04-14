@@ -17,7 +17,7 @@
 .center-content {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-65%);
   text-align: center;
 }
 .logo-container img {
