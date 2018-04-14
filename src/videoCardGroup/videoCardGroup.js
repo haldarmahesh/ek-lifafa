@@ -12,12 +12,20 @@ export default class VideoCardGroup extends Component {
   }
   renderCard(videoId, video) {
     return (
-      <div className="card" key={videoId}>
-        <img className="card-img-top" src={`http://img.youtube.com/vi/${videoId}/mqdefault.jpg`} alt="Card image cap" />
+      <div className="card" key={videoId} onClick={(() => window.open(`https://www.youtube.com/watch?v=${videoId}`))}>
+        <div className="image-container">
+          <img className="card-img-top" src={`http://img.youtube.com/vi/${videoId}/mqdefault.jpg`} alt="Card image cap" />
+          <span className="card-img-text">
+            <span className="text fa-stack ">
+              <i className="fa fa-circle fa-stack-2x "></i>
+              <i className="fa fa-play fa-stack-1x fa-inverse"></i>
+            </span>
+          </span>
+        </div>
         <div className="card-body">
           <h5 className="card-title">{video.title}</h5>
           <p className="card-text">{video.description}</p>
-          <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+          {/* <p className="card-text"><i class="fas fa-play"></i> Listen now</p> */}
         </div>
       </div>);
   }
