@@ -1,3 +1,33 @@
+@media (max-width: 576px) { 
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 525px) { 
+    .container {
+      width: 430px;
+    }
+  }
+  @media (max-width: 470px) { 
+    .container {
+      width: 360px;
+    }
+  }
+  @media (max-width: 410px) { 
+    .container {
+      width: 340px;
+    }
+  }
+  @media (max-width: 370px) { 
+    .container {
+      width: 320px;
+    }
+  }
+  @media (max-width: 350px) { 
+    .container {
+      width: 280px;
+    }
+  }
 .raised{
     margin: -60px auto 40px;
     background: white;
