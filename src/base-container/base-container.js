@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './base-container.css';
-
+import VideoCardGroup from '../videoCardGroup/videoCardGroup';
 class BaseContainer extends Component {
   constructor(props) {
     super(props);
@@ -12,36 +12,26 @@ class BaseContainer extends Component {
       <div className="container raised">
         <section className="intro">
           <div className="heading">
-          Welcome to Ek Lifafa <br />Listen to amazing hindi audio stories now.
+            Welcome to Ek Lifafa <br />Listen to amazing hindi audio stories now.
           </div>
-          <button className="yt-subscribe btn btn-danger" type="submit" onClick={() => {console.log('asd');
-        window.open('https://www.youtube.com/c/eklifafa/?sub_confirmation=1');
-        }}>
-          <i className="fab fa-lg fa-youtube" target="_blank"></i>Subscribe Now</button>
+          <button className="yt-subscribe btn btn-danger" type="submit" onClick={() => {
+            console.log('asd');
+            window.open('https://www.youtube.com/c/eklifafa/?sub_confirmation=1');
+          }}>
+            <i className="fab fa-lg fa-youtube" target="_blank"></i>Subscribe Now</button>
           {/* <div className="sub-heading">Here we bring short stories in audio format, so that you can listen while you are travelling or relaxing. Just put your ear plugs and visit new world with Mahesh Haldar.</div> */}
         </section>
 
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
           <div className="col-md-6 ">
             <div className="embed-responsive embed-responsive-16by9">
               <iframe className="embed-responsive-item" src={`https://www.youtube.com/embed/${randomVideoId}`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
               </div>
           </div>
         </div>
-        <h4 className="video-title">Story for this session</h4>
+        <h4 className="video-title">Story for this session</h4> */}
+        <VideoCardGroup />
 
-        <div className="row">
-  {/* <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Follow us now</h5>
-        <p class="card-text"></p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div> */}
-</div>
-        
       </div>
     );
   }
