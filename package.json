@@ -2,7 +2,6 @@
   "name": "ek-lifafa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://haldamahesh.github.io/ek-lifafa",
   "dependencies": {
     "bootstrap": "^4.1.0",
     "gh-pages": "^1.1.0",
